@@ -28,11 +28,15 @@
 # print(large_to_small_arr)
 
 #! Merging sorted array (Two pointers algorithm)
-nums1=[1,2,3,0,0,0]
-m=3
-nums2=[2,5,6]
-n=3
+# nums1=[1,2,3,0,0,0]
+# m=3
+# nums2=[2,5,6]
+# n=3
 
+nums1 = [4,5,6, 0, 0, 0]
+nums2 = [1,2,3]
+m=3
+n=3
 def merge(nums1,m, nums2, n):
    #! pointer 1 that points to the last valid element of nums1
    i=m-1
@@ -52,7 +56,11 @@ def merge(nums1,m, nums2, n):
       else :
          nums1[k] = nums2[j]
          j=j-1  #! move poniters in left direction of nums2 array
-      k =k-1  
+      k =k-1 
+   while j>=0:
+      nums1[k] = nums2[j]
+      j=j-1
+      k=k-1   
    return nums1   
 
 #! solution block
@@ -62,3 +70,9 @@ print(modified_nums1)
 
 #! Explannation
 #! compare finite number elements of bothe array and store in the first array numbers accordingly in non decreasing order
+#! Time complexity 
+#! While loop variable is i and j both of then at max runs m and n times
+#! O(m+n) time complexity
+#! Space complexity
+#! No new array, dicitionary or recursion
+#! O(1) space complexity
