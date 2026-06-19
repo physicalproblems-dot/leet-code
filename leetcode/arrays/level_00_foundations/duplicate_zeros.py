@@ -63,7 +63,8 @@ print(duplicate_Zeros(arr))
 
 #! Write a logic table by hand to solve the problem   
 #! Concept of virtual array  
-#! j points outside the real array         
+#! j points outside the real array  
+#! Visulalize the datastructure manupulation       
 
 #!       i 1  2   3   4   5   6   7   8       
 #!    arr=[1, 0,  2,  3,  0,  4,  5,  0]  _  _  _    m= 8   #! Application of auxillay concept of ghost array and ghost index
