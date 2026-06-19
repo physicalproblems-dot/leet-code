@@ -69,3 +69,4 @@ print(duplicate_Zeros(arr))
 #!       i 1  2   3   4   5   6   7   8       
 #!    arr=[1, 0,  2,  3,  0,  4,  5,  0]  _  _  _    m= 8   #! Application of auxillay concept of ghost array and ghost index
 #!       j 1  2   3   4   5   6   7   8   9  10 11 
+#! Visulaize the logic in pen and paper 
