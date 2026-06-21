@@ -35,3 +35,4 @@ print(even_number_digits(nums))
 
 #! Explanantion
 #While loop within while loop
+#! If while loop is run on some index , it has to be close like i=i-1 or coming from input like arr[i]>0
